@@ -32,7 +32,7 @@ jobs:
       # 克隆
       - name: Clone
         run: |
-          git clone git@github.com:daobook/sphinx-intl.git draft
+          git clone https://github.com/daobook/sphinx-intl.git draft
 
       # 构建 Sphinx 文档
       - name: Build the book
